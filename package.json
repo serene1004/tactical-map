@@ -1,0 +1,27 @@
+{
+  "name": "tactical-map",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "check": "vue-tsc --noEmit",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "maplibre-contour": "^0.1.0",
+    "maplibre-gl": "^5.21.1",
+    "milsymbol": "^3.0.4",
+    "pinia": "^3.0.4",
+    "vue": "^3.5.31"
+  },
+  "devDependencies": {
+    "@types/geojson": "^7946.0.16",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.3",
+    "vue-tsc": "^3.2.6"
+  }
+}
